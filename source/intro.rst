@@ -1,18 +1,16 @@
 ========================
-About This Documentation
+关于本文档
 ========================
 
-This is the unofficial documentation for the Sublime Text editor, maintained by
-volunteers. We hope it's useful!
+这是由ST党拥护者们维护的Sublime Text编辑器的非官方文档。希望能对你有所帮助！
 
-*The sublime what? What are you talking about!?*
+*sublime什么？你在说什么东西啊？*
 
-`Sublime Text`_ is a text editor for code and prose. It does away with many
-repetitive tasks so you can focus on your work. And it's fun to use!
+`Sublime Text`_ 是一款为编写代码和文稿而准备的多功能编辑器。它为你做了很多重复性的工作，
+从而让你的精力专注在正在编写的内容上面。重要的是，使用它你会感觉很快乐！
 
 .. _Sublime Text: http://www.sublimetext.com
 
-Before you continue, we encourage you to read through the :doc:`basic_concepts`
-section.
+在你继续阅读之前，我们鼓励你通读一下 :doc:`基本概念 <basic_concepts>` 章节。
 
-Happy learning!
+学的开心哦！

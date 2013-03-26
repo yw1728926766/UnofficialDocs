@@ -1,73 +1,64 @@
-============
-Installation
-============
+====
+安装
+====
 
-The process of installing Sublime Text is different for each platform.
+在不同平台上安装Sublime Text的过程是不同的。
 
-Make sure to read the `conditions for use`_ on the official site. Sublime Text
-is not free.
+请务必阅读官方网站上的 `使用条约`_ ，Sublime Text并不是免费的。
 
-.. _conditions for use: http://www.sublimetext.com/buy
+.. _使用条约: http://www.sublimetext.com/buy
 
-32 bits or 64 bits?
-===================
+32位还是64位？
+==============
 
-Choose the 64-bit version if you're running a 64-bit operating system,
-otherwise the 32-bit version.
+请根据操作系统作对应选择，如果你正在使用64位的系统，就请下载64位的版本，否则就下载32位的版本。
 
-On **Windows**, if in doubt, choose the 32-bit version. Modern 64-bit
-versions of Windows can run 32-bit software.
+在 **Windows** 平台，如果你不知道如何查看操作系统的版本，就请下载32位版。现在的64位Windows
+操作系统可以正常运行32位的软件。
 
-On **Linux** run this command in your terminal to check your operating
-system's type::
+在 **Linux** 平台，请在终端中输入下面的命令来查看操作系统的类型::
 
 	uname -m
 
-For **OS X**, you can ignore this section: there is only one version of
-Sublime Text for OS X.
+对于 **OS X** 的用户，你大可不必关心此部分内容，因为Sublime Text在OS X平台只有一个版本。
 
 Windows
 =======
 
-Portable or Not Portable?
--------------------------
+选择便携版还是非便携版？
+---------------------------
 
-Sublime Text comes in two flavors for Windows: normal, and portable. If you
-need the portable installation, you probably know already. Otherwise, go with
-the normal one.
+Sublime Text在Windows平台提供了两种安装类型：一种是标准安装，另外一种则是便携安装。只有
+当你确信自己要使用便携版的时候才选择便携安装，否则就选择标准安装好了。
 
-**Normal installations** separate data between two folders: the installation
-folder proper, and the *data directory*. These concepts are explained later
-in this guide. Normal installations also integrate Sublime Text with the
-Windows context menu.
+**标准安装** 会将数据分散到两个文件夹：适当的安装目录，以及 *数据目录* 。这些概念将在稍后
+的文档中进行解释。标准安装也会将Sublime Text的选项与Windows的快捷菜单进行整合。
 
-**Portable installations** will keep all files Sublime Text needs to run in
-one single folder. You can then move this folder around and the editor will
-still work.
+**便携安装** 会将所有Sublime Text需要的文件放到一个目录中。这样你就可以通过介质随身携带
+这个目录，而编辑器仍然可以正常工作。
 
-How to Install the Normal Version of Sublime Text
+如何安装标准版的Sublime Text
 -------------------------------------------------
 
-Download the installer, doubleclick on it and follow the onscreen
-instructions.
+很简单，下载安装器，双击运行，然后跟着屏幕上的指令一步一步操作就可以了。
 
-How to Install the Portable Version of Sublime Text
+如何安装便携版的Sublime Text
 ----------------------------------------------------
 
 Download the package and uncompress it to a folder of your choice. You will
 find the *sublime_text.exe* executable inside that folder.
+下载压缩包，并且将其中的内容解压到你选择的路径。你能在解压的路径中找到 *sublime_text.exe*
+的可执行文件。
 
 OS X
 ====
 
-Download and open the *.dmg* file, and then drag the Sublime Text 2 bundle
-into the *Applications* folder.
+下载并打开 *.dmg* 文件，将其中的Sublime Text 2拖拽到 *应用程序* 文件夹即可。
 
 Linux
 =====
 
-You can download the package and uncompress it manually. Alternatively, you
-can use the command line:
+你可以手动下载并解压包文件。或者，你可以使用下面的几行命令：
 
 ::
 
@@ -75,39 +66,32 @@ can use the command line:
 	wget http://url/to/sublime.tar.bz2
 	tar vxjf sublime.tar.bz2
 
-If you want, you can also create a symbolic link to the executable for
-convenience::
+如果你愿意的话，也可以使用下面的命令来创建一个可以方便使用的符号连接::
 
 	sudo ln -s /path/to/sublime_text /usr/bin/subl
 
-Living Dangerously... or Not
+尝试冒险或者选择稳定
 ============================
 
-Sublime Text has three release *channels*:
+Sublime Text有三个发布 *通道* ：
 
-* `Stable`_ (default)
-* `Dev`_
-* `Nightly`_
+* `稳定版`_ (默认选择)
+* `开发版`_
+* `日更新版`_
 
-.. _Stable: http://www.sublimetext.com/2
-.. _Dev: http://www.sublimetext.com/dev
-.. _Nightly: http://www.sublimetext.com/nightly
+.. _稳定版: http://www.sublimetext.com/2
+.. _开发版: http://www.sublimetext.com/dev
+.. _日更新版: http://www.sublimetext.com/nightly
 
-If you are working on a NASA project or are on a tight deadline, keep using
-the stable releases and stop reading here. **Stable releases** are better
-tested and more reliable for everyday use than the others. They come out
-roughly once a month. **The majority of users will want to use stable releases
-only.**
+如果你正在为NASA的项目工作，或者正在赶一个紧迫的截止日期，请使用稳定发行版，并且没必要继续
+阅读了。**稳定发行版** 受过更加完整的测试，而且比其他版本更可信赖，更适宜日常的工作。稳定
+发行版基本是每月更新一次。 **大部分的用户都只需要使用稳定版。**
 
-The *dev* and *nightly* channels are unstable, which means that builds
-published through them are likely to contain bugs and to not work reliably.
-They are updated more often than stable releases.
+*开发* 或者 *日更新* 通道都不是稳定通道，这意味着通过这些通道发布的版本可能包含更多的bug，
+或者可能无法可靠的运行。但是它们的更新速度比稳定版要快得多。
 
-**Dev builds** are available for everyone. On average, they're released twice
-a month. While not quite ready for everyday use yet, they showcase new
-features in a mostly unbroken fashion.
+每个人都能用免费使用 **开发发行版**。 平均看来，开发版每月发布两次。尽管它们可能还不能胜任
+每天的工作，但是这些发行版的确较为稳定的展示了接下来要发放版本的新特性。
 
-Lastly, **nightly builds** are the bleeding edge, with frequent updates and
-also frequent problems of various degrees of severity. They are fun to try
-out, but do so at your own risk. Nighlty builds are **only available for
-registered users**.
+最后，使用 **日更新版** 真是站在风口浪尖上，这些发行版发布频率很高，同时也包含大量严重程度
+不一的问题。试用这些版本很好玩，但是风险请自负。需要注意的是日更新版 **只对注册用户开放** 。

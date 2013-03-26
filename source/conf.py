@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Sublime Text Unofficial Documentation'
-copyright = u'2012, Sublime Text Community'
+project = u'Sublime Text非官方文档'
+copyright = u'2012, Sublime Text社区'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -103,10 +103,10 @@ html_theme = 'default'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Sublime Text Unofficial Documentation"
+html_title = u"Sublime Text非官方文档（中文翻译版）"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = 'Sublime Text Docs'
+html_short_title = u'Sublime Text文档'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -164,7 +164,7 @@ html_show_sphinx = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Sublime Text Unofficial Documentation'
+htmlhelp_basename = u'Sublime Text非官方文档'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,8 +178,8 @@ htmlhelp_basename = 'Sublime Text Unofficial Documentation'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SublimeTextHelp.tex', u'Sublime Text Unofficial Documentation',
-   u'guillermooo', 'manual'),
+  ('index', 'SublimeTextHelp.tex', u'Sublime Text非官方文档',
+   u'guillermooo (Void Main翻译版)', u'手册'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -211,6 +211,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sublimetexthelp', u'Sublime Text Unofficial Documentation',
-     [u'Sublime Text Community'], 1)
+    ('index', 'sublimetexthelp', u'Sublime Text非官方文档',
+     [u'Sublime Text社区'], 1)
 ]
