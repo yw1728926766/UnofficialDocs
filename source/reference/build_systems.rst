@@ -221,9 +221,9 @@ Select the desired build system from **Tools | Build System**, and then select
 **Tools | Build** or press ``F7``.
 
 
-.. _troubleshooting-build-systems:
+.. _构建系统常见问题:
 
-Troubleshooting Build Systems
+构建系统常见问题
 *****************************
 
 Build systems will look for executables in your :const:`PATH`, unless you specify
