@@ -1,59 +1,55 @@
 =======
-Editing
+编辑
 =======
 
-Overview
+概览
 ========
 
-Sublime Text is full to the brim with editing features. This topic just
-scratches the surface of what's possible.
+Sublime Text具有多种多样的编辑特性。本主题只简单展示其中的几种。
 
 
-Multiple Selections
+多重选择
 ===================
 
-Multiple selections let you make sweeping changes to your text efficiently.
-Any praise about multiple selections is an understatement. This is why:
+多重选择特性让你可以高效的在文档中进行批量修改。任何对这个特性的赞誉都不为过。接下来我们就展示
+为什么这么说：
 
-Select some text and press ``Ctrl + D`` to **add more** instances. If
-you want **to skip the current instance**, press ``Ctrl + K, Ctrl + D``.
+首先选中一些文本，然后按 ``Ctrl + D`` 的组合键来 **添加更多** 实例。如果你想 **跳过当前实例**，
+可以按 ``Ctrl + K, Ctrl + D``。
 
-If you go too far, press ``Ctrl + U`` to **deselect** the current instance.
+如果你按键太快，导致误添加了一个实例，可以用 ``Ctrl + U`` 来 **取消** 对当前实例的选择。
 
-
-Transforming Multiple Selections into Lines
+把多重选择的内容扩展到行
 ===========================================
 
-``Ctrl + L`` expands the selections to the end of the line. ``Ctrl + Shift + L``
-splits the selections into lines.
+使用 ``Ctrl + L`` 可以把多重选择的内容从单词扩展到整行。使用 ``Ctrl + Shift + L`` 可以把
+选中的多行文本分成多个独立的行。
 
-You can copy multiple selected lines to a separate buffer, edit them there,
-select the content again as multiple lines and then paste them back into
-place in the first buffer.
+（译者注：这里多个独立的行指的是每行末尾都有单独的光标。平时选中多行文字之后只会有一个光标，这
+时按 ``Ctrl + Shift + L`` 后，每一行末尾都有一个光标，可以按左方向键查看效果。这种选择适用
+于在 *每行* 都添加/删除相同的内容）
+
+你可以复制多重选择的行到一个单独的缓冲区，在那里编辑他们，并将编辑后的结果贴回到第一个缓冲区。
 
 
-Other Ways of Selecting Text
+文本选择的其他方法
 ============================
 
-The list is long; all available options can be found under **Selection**. To
-name a few:
+文本选择的方法很多，可以在 **Selection** 菜单下找到所有可能的选项。下面举几个例子：
 
-* Select subwords (``Alt + Shift + <arrow>``)
-* Expand selection to brackets (``Ctrl + Shift + M``)
-* Expand selection to indentation (``Ctrl + Shift + J``)
-* Expand selection to scope (``Ctrl + Shift + Space``)
+* 选择子单词 (``Alt + Shift + <arrow>``)
+* 添加对选中文字周围括号的选择 (``Ctrl + Shift + M``)
+* 添加对选中文字缩进空格的选择 (``Ctrl + Shift + J``)
+* 添加对选中文字当前域的选择 (``Ctrl + Shift + Space``)
 
-
-Transposing Things
+交换位置
 ==================
 
-Need to swap two letters or, better yet, two words? Experiment with
-``Ctrl + T``.
+需要调换两个字母甚至两个单词的位置？试试 ``Ctrl + T``吧。
 
 
-And much, much more...
+其他内容
 ======================
 
-The **Edit**, **Selection**, **Find** and **Goto** menus are good places to
-look for handy editing tools. You might end up using just a few of them,
-but the rest will still be there when you need them.
+在 **Edit**, **Selection**, **Find** 和 **Goto** 菜单中可以找到很多好用的编辑工具。平常
+你可能只需要其中的部分功能，当你遇到问题的是后看看这些菜单项，也许其他功能能够帮助你解决问题。
