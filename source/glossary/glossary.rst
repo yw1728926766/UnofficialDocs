@@ -35,9 +35,10 @@
     	inside ``Packages`` containing resources that belong together to build
     	a new feature or provide support for a programming or markup language.
         在Sublime Text中这个术语的意义有点模糊，它可以指一个Python包（这种用法很少），或者
-        是 ``包组`` 目录下的一个文件夹，亦或是一个 *.sublime-package* 文件。大多数情况下，
-        包指的是 ``包组`` 目录下的一个文件夹，这个文件夹中包含为某个特性或者某种语言服务的各
+        是 ``Packages`` 目录下的一个文件夹，亦或是一个 *.sublime-package* 文件。大多数情况下，
+        包指的是 ``Packages`` 目录下的一个文件夹，这个文件夹中包含为某个特性或者某种语言服务的各
         种资源。
+        译者注: Packages 目录保存在Sublime Text的安装目录中
 
     panel
     面板
