@@ -2,3 +2,4 @@ Guillermo López-Anglada (guillermooo)
 
 Translator:
 Void Main (void-main)
+Cliff Woo (cliffwoo)
