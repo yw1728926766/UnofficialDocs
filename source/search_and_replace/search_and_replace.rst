@@ -28,9 +28,7 @@ Find All                     ``Alt + Enter``
 查找全部                      ``Alt + Enter``
 ==========================	===========
 
-（译者注：关于缓冲区，请参考 `词汇表`_ 这个章节）
-
-.. _词汇表: ../glossary/glossary.html
+（译者注：关于缓冲区，请参考 :doc:`词汇表 <../glossary/glossary>` 这个章节）
 
 .. _snr-incremental-search-buffer:
 
