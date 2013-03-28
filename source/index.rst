@@ -15,8 +15,8 @@ Sublime Text非官方文档（中文翻译版）
    编辑 <editing/editing>
    搜索和替换 <search_and_replace/search_and_replace_overview>
    构建系统（批处理） <file_processing/build_systems>
-   文件导航与文件管理（尚未翻译） <file_management/file_management>
-   自定义内容（尚未翻译） <customization/customization>
+   文件导航与文件管理 <file_management/file_management>
+   自定义 <customization/customization>
    可扩展性与自动化（尚未翻译） <extensibility/extensibility>
    命令行 <command_line/command_line>
    参考内容（尚未翻译） <reference/reference>
