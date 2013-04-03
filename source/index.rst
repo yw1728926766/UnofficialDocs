@@ -13,7 +13,7 @@ Sublime Text非官方文档（中文翻译版）
    安装 <getting_started/install>
    基本概念 <basic_concepts>
    编辑 <editing/editing>
-   搜索和替换 <search_and_replace/search_and_replace_overview>
+   搜索和替换 <search_and_replace/search_and_replace_overview>//第一遍看完~
    构建系统（批处理） <file_processing/build_systems>
    文件导航与文件管理 <file_management/file_management>
    自定义 <customization/customization>

@@ -10,7 +10,7 @@ Searching
 
 To open the **search panel** for buffers, press ``Ctrl + F``. Some options in
 the search panel and search actions can be controlled with the keyboard:
-按下 ``Ctrl + F`` 键就可以打开对应当前缓冲区的 **搜索面板** 。搜索面板里的一些选项和搜索动作
+按下 ``Ctrl + F`` 键就可以打开当前缓冲区的 **搜索面板** 。搜索面板里的一些选项和搜索动作
 有着对应的快捷键：
 
 ==========================	===========
@@ -77,7 +77,7 @@ Other Ways of Searching in Buffers
 
 Goto Anything provides the operator ``#`` to search in the current
 buffer. The search term will be the part following the ``#`` operator.
-可以在Goto Anything（快速跳转）面板中使用 ``#`` 操作符在当前缓冲区中进行搜索。跟在 ``#``
+可以在Goto Anything（快速跳转）(译者注：ctrl+P唤出，或者菜单栏->Goto->Goto Anything)面板中使用 ``#`` 操作符在当前缓冲区中进行搜索。跟在 ``#``
 操作符后面的内容将被识别为搜索关键字。
 
 Other Key Bindings to Search in Buffers
