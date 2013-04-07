@@ -84,7 +84,7 @@ Sublime Text command.
     Optional. Regular expression (Perl-style) to capture error output of
     ``cmd``. See the next section for details.
 
-    
+
 ``file_regex``
     可选。 Perl格式的正则表达式可以获取``cmd``的错误输出，详情参考下一节
 
@@ -106,7 +106,7 @@ Sublime Text command.
     Sublime Text uses this scope selector to find the appropriate build system
     for the active view.
 
-``selector``    
+``selector``
     可选。在选定 **Tools | Build System | Automatic** 时使用。Sublime Text使用这个
     选择器自动为活动试图选择构建系统。
 
@@ -137,7 +137,7 @@ Sublime Text command.
     可选。运行的Sublime Text命令，缺省为``exec`` (*Packages/Default/exec.py*)。该命令从
     *.build-system*中获取配置数据。
 
-    用来替代缺省的构建系统命令。注意，如果你希望替代构建系统的缺省命令，请在*.sublime-build* 
+    用来替代缺省的构建系统命令。注意，如果你希望替代构建系统的缺省命令，请在*.sublime-build*
     文件中专门设置。
 
 
@@ -156,7 +156,7 @@ Sublime Text command.
     Optional. If ``true``, ``cmd`` will be run through the shell (``cmd.exe``, ``bash``\ …).
 
  ``shell``
-    可选。如果该选项为``true`` ，``cmd``则可以通过shell运行。    
+    可选。如果该选项为``true`` ，``cmd``则可以通过shell运行。
 
 ``path``
     Optional. This string will replace the current process' :const:`PATH` before
@@ -238,7 +238,7 @@ platform-specific data in the build system. Here's an example::
 In this case, ``ant`` will be executed for every platform except Windows,
 where ``ant.bat`` will be used instead.
 
-在这个例子中，``ant``在除了Windows之外的平台中都是执行 ant ，而在Windows中则执行 
+在这个例子中，``ant``在除了Windows之外的平台中都是执行 ant ，而在Windows中则执行
 ``ant.bat``
 
 构建系统备选项
@@ -275,7 +275,7 @@ in the Command Palette whenever the build system was active.
 根据以上的设定，按 *Ctrl + B* 会运行*date*命令, 按 *Crtl + Shift + B* 会运行Python
 解释器，并且在构建系统激活时将剩余的备选项显示在Command Palette中。
 
-.. _build-system-variables:
+.. _构建系统变量:
 
 构建系统变量
 **********************
@@ -316,7 +316,7 @@ This will emit the name of the current project if there is one, otherwise ``Defa
 
 This will emit the full path of the current file, replacing *.php* with *.txt*.
 
-该例会获取当前文件的完整路径，并用*.txt*替换路径中的*.php* 
+该例会获取当前文件的完整路径，并用*.txt*替换路径中的*.php*
 
 运行构建系统
 *********************
@@ -360,7 +360,7 @@ build system is running. After that, the old :const:`PATH` will be restored.
 
 另外，你也可以在 *.sublime-build* 文件中设定 ``path`` 来替代:const:`PATH` ，并在 ``path``
 指定的路径中查找 ``cmd`` 可执行文件。新设定的值，仅在构建系统运行期间有效，过后将会恢复为原始的
- :const:`PATH` 
+ :const:`PATH`
 
 .. seealso::
 

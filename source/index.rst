@@ -19,7 +19,7 @@ Sublime Text非官方文档（中文翻译版）
    自定义 <customization/customization>
    可扩展性与自动化（尚未翻译） <extensibility/extensibility>
    命令行 <command_line/command_line>
-   参考内容（尚未翻译） <reference/reference>
+   参考内容 <reference/reference>
    词汇表 <glossary/glossary>
 
 .. Indices and tables
