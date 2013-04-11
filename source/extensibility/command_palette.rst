@@ -20,8 +20,8 @@ The *command palette* is an interactive list bound to :kbd:`Ctrl+Shift+P` whose
 purpose is to execute commands. The command palette is fed entries with
 commands files. Usually, commands that don't warrant creating a key binding of
 their own are good candidates for inclusion in a ``.sublime-commands`` file.
-*命令面板*是一个绑定到键盘`Ctrl+Shift+P`的交互列表，其目的在意执行命令。命令面板
-与命令文件相互联系。通常，命令不保证产生一个按键绑定，可以在``.sublime-commands``
+*命令面板*是一个绑定到键盘 `Ctrl+Shift+P` 的交互列表，其目的在意执行命令。命令面板
+与命令文件相互联系。通常，命令不保证产生一个按键绑定，可以在 ``.sublime-commands``
 中作为一些很好的候选。
 
 File Format (Commands Files)
@@ -29,7 +29,7 @@ File Format (Commands Files)
 ============================
 
 Commands files use JSON and have the ``.sublime-commands`` extension.
-命令文件使用JSON，并且有一个``.sublime-commands``的扩展。
+命令文件使用JSON，并且有一个 ``.sublime-commands`` 的扩展。
 
 Here's an excerpt from ``Packages/Default/Default.sublime-commands``::
 如下是来自 ``Packages/Default/Default.sublime-commands`` 的实例::
@@ -67,5 +67,5 @@ How to Use the Command Palette
 
 The command palette filters entries by context, so whenever you open it, you
 won't always see all the commands defined in every ``.sublime-commands`` file.
-命令面板通过文本过滤选项，所以无论什么时候打开，你都不会看到每一个``.sublime-commands``
+命令面板通过文本过滤选项，所以无论什么时候打开，你都不会看到每一个 ``.sublime-commands`` 
 文件的所有命令。
