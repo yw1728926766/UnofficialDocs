@@ -45,8 +45,6 @@ Sublime Text在Windows平台提供了两种安装类型：一种是标准安装�
 如何安装便携版的Sublime Text
 ----------------------------------------------------
 
-Download the package and uncompress it to a folder of your choice. You will
-find the *sublime_text.exe* executable inside that folder.
 下载压缩包，并将其中的内容解压到你选择的路径。你能在解压的路径中找到 *sublime_text.exe*
 的可执行文件。
 
