@@ -124,8 +124,6 @@ Sublime Text中的配置文件允许你调整编辑器的表现，添加宏和�
 Textmate兼容性
 ======================
 
-This information is mainly useful for Textmate users who are now using Sublime
-Text. Textmate was an editor for the Mac.
 这部分信息主要是为从Textmate转型使用Sublime Text的用户准备的。Textmate，它是Mac平台的
 一个编辑器。
 
