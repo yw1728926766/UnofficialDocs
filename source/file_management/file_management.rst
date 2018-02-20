@@ -15,9 +15,10 @@ ghosts or something.
 
 “随意跳转” 可以让你方便的在文件之间切换，使用 :kbd:`Ctrl+P` 启动该功能。你在输入栏输入，ST则会
 对已经打开的文件或者目录进行搜索，并给出匹配最佳的搜索结果的预览。如果你不进行任何操作，将不会
-真正加载这些文件。可以按:kbd:`Esc`取消预览界面。快捷预览界面形似鬼魅，你在使用ST的其他功能时也会遇到哦。
+真正加载这些文件。可以按 :kbd:`Esc` 取消预览界面。快捷预览界面形似鬼魅，你在使用ST的其他功能时也会遇到哦。
 
 Goto Anything lives up to its name --there's more to it than locating files:
+
 “随意跳转”正如其名，其功能不仅限于查找文件：
 
 To perform a **fuzzy search**, append ``#`` and then keep typing, like this:
@@ -35,8 +36,7 @@ This instructs Sublime Text to perform a fuzzy search for *treasure* in the
 file whose name matches *island*. Pressing :kbd:`Ctrl+;` will open Goto
 Anything and type ``#`` for you.
 
-Sublime Text会进行在所有文件名匹配 *island* 的文件中搜索 *treasure* 关键字。使用组合键 
-:kbd:`Ctrl+;` 可以打开“随意跳转” 功能并输入 ``#`` 
+Sublime Text会进行在所有文件名匹配 *island* 的文件中搜索 *treasure* 关键字。使用组合键 :kbd:`Ctrl+;` 可以打开“随意跳转” 功能并输入 ``#`` 
 
 And there's more:
 
@@ -48,7 +48,7 @@ To **search symbols** in the active buffer, press :kbd:`Ctrl+R`. The operator
 To **go to a line number**, press :kbd:`Ctrl+G`. The operator ``:`` can be
 used as explained above too.
 
-可以通过按下组合键 :kbd:`Ctrl+G`来跳转到指定的行号。操作符  ``:`` 与之前提到的用法相同。
+可以通过按下组合键 :kbd:`Ctrl+G` 来跳转到指定的行号。操作符  ``:`` 与之前提到的用法相同。
 
 Searching for symbols will only work for file types that have symbols defined
 for them.
@@ -75,8 +75,8 @@ it the **input focus** by pressing :kbd:`Ctrl+0`. To return input focus to the
 buffer, press :kbd:`Esc`. Alternatively, you can use the mouse to the same
 effect, but why would you?
 
-在侧边栏可以使用方向键来在文件间切换，但是首先需要通过按组合键:kbd:`Ctrl+0` 使其获得**输入焦点**。
-如果希望缓冲区重新获得输入焦点，则需要按 :kbd:`Esc`键。同样，你也可以使用鼠标达到同样的效果，但是
+在侧边栏可以使用方向键来在文件间切换，但是首先需要通过按组合键 :kbd:`Ctrl+0` 使其获得 **输入焦点** 。
+如果希望缓冲区重新获得输入焦点，则需要按 :kbd:`Esc` 键。同样，你也可以使用鼠标达到同样的效果，但是
 你有必要这么做吗？
 
 The sidebar also provides basic file management operations through the context
@@ -107,8 +107,8 @@ Wherever there's a `.sublime-project` file, you will find an ancillary
 `.sublime-workspace` file too. The second one is used by Sublime Text and you
 shouldn't edit it yourself.
 
-项目数据保存在一些以 `.sublime-project` 为扩展名的JSON文件中。只要有 `.sublime-project`
-文件，相应的都会有一个`.sublime-workspace` 文件。后者是Sublime Text使用，用户请不要进行修改。
+项目数据保存在一些以 `.sublime-project` 为扩展名的JSON文件中。只要有 `.sublime-project` 
+文件，相应的都会有一个 `.sublime-workspace` 文件。后者是Sublime Text使用，用户请不要进行修改。
 
 Project files can define settings specific to that project only. More on that
 in the `official documentation`_.
